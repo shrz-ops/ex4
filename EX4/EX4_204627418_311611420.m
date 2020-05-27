@@ -67,6 +67,7 @@ for isubj = 1:nsubjects
     %      plot_results(isubj, freq_fft, FFT_EC, FFT_EO, IAF_fft,type{1},color{1},max_x_fft,max_y_fft);
     %     plot_results(isubj, f, pwelch_ec, pwelch_eo, IAF_pwelch,type{2},color{2},max_x_pwelch,max_y_pwelch);
     %     plot_results(isubj, freq_dft, DFT_EC, DFT_EO, IAF_dft,type{3},color{3},max_x_dft,max_y_dft);
+    figure
     subplot(2,3,1)
     plot(freq_fft, FFT_EC,'b', freq_fft,FFT_EO,'r')
     title('FFT','fontsize',16,'color','g')
